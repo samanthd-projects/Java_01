@@ -1,6 +1,20 @@
 
+   
+   //by default interfaces are public and method inside interface should also be public
+   //the variables inside interface is final by default
+   //interface is nothing but just a template to the structure of the code
+   //follows multiple inheritance
+   //can be inherited using implements feature
+
+   // class-class -> extends
+   //class - interface ->implements
+   //class-abstract ->extends
+   //inerface-interface -> extends
+
+   @FunctionalInterface //1 abstract function java 8    
    interface Payment {
     int time=6;
+    
     void Paypal(int amount);
 }
 

@@ -1,3 +1,4 @@
+//we can declare static to B inner class not for Outer Class
 
 class A{
     void print(){

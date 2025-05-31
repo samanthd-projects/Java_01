@@ -15,7 +15,7 @@ class Doc1 extends Doctor{
         super(name);
     }
 
-    void operationundergoing()
+    public void operationundergoing()
     {
         System.out.println("hello i am doing 01 operation "+name);
     }
